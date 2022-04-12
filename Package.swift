@@ -27,7 +27,7 @@ import PackageDescription
 let swiftSettings: [SwiftSetting] = [
     .define("CRYPTO_IN_SWIFTPM"),
     // To develop this on Apple platforms, uncomment this define.
-    // .define("CRYPTO_IN_SWIFTPM_FORCE_BUILD_API"),
+    .define("CRYPTO_IN_SWIFTPM_FORCE_BUILD_API"),
 ]
 
 let package = Package(
